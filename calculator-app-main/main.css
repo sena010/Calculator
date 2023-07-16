@@ -1,0 +1,148 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    text-align: center;
+}
+
+.blank {
+    width: 120px;
+}
+
+.calc {
+    font-weight: bolder;
+    font-size: 18px;
+    color: white;
+}
+
+.theme {
+    font-weight: bold;
+    font-size: x-small;
+    color: white;
+
+}
+
+.switch-toggle {
+    width: 50px;
+    border-radius: 34px;
+    background: #242729;
+}
+
+.switch-toggle input {
+    border-radius: 34px;
+    position: absolute;
+    opacity: 0;
+}
+
+.switch-toggle input+label {
+    padding: 1px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.switch-toggle input:checked+label {
+    background-color: red;
+    height: 2px;
+    border-radius: 100%;
+}
+
+.calculator {
+    width: 400px;
+    height: 500px;
+    background-color: #3b4664;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.numbers {
+    width: 300px;
+    height: 300px;
+    padding: 10px 0px 10px 0px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #252d44;
+}
+
+.numbers-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.number {
+    color: #55555d;
+    font-weight: bold;
+    width: 35px;
+    height: 15px;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #eae3db;
+    box-shadow: 0px 2px 2px 0px rgb(211, 205, 205);
+    cursor: pointer;
+}
+
+.input {
+    width: 300px;
+    margin: 10px 0px 10px 0px;
+}
+
+input {
+    border-radius: 5px;
+    width: 300px;
+    height: 75px;
+    background-color: #252d44;
+    color: white;
+    font-size: 30px;
+    text-align: right;
+}
+
+.reset-button {
+    box-shadow: 0px 2px 2px 0px #2c3652;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 125px;
+    height: 35px;
+    background-color: #647299;
+    color: white;
+}
+
+.result-button {
+    box-shadow: 0px 2px 2px 0px rgb(70, 2, 2);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 125px;
+    background-color: red;
+    color: white;
+}
+
+.number-del {
+    font-weight: bold;
+    width: 35px;
+    height: 15px;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 0px 2px 2px 0px #2c3652;
+    background-color: #647299;
+    color: white;
+}
